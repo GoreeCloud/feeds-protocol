@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### Development contract
+
+- Added OpenAPI 3.1 Development contract `0.1.0-dev`.
+- Added `GET /api/v1/capabilities` as the first non-sensitive capability-negotiation endpoint.
+- Added dependency-free contract validation using Node.js 24 LTS and GitHub Actions.
+- Kept the protocol lifecycle at Development; no Stable or production compatibility claim is made.
+
 ### Repository foundation
 
 - Expanded the repository entry point.
