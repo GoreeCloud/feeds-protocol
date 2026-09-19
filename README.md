@@ -6,7 +6,7 @@ GoreeCloud Feeds Protocol is the planned shared contract repository for communic
 
 **Lifecycle:** Planned / repository foundation.
 
-This repository currently contains documentation only. It does not yet define a released API schema, wire format, synchronization schema, event contract, error model, generated SDK, package, compatibility matrix, or Stable protocol version.
+This repository now contains its first machine-readable **Development** API contract in `openapi/feeds-v1.json`. It does not define a Stable protocol, synchronization schema, event transport, generated SDK, compatibility matrix, or production release.
 
 ## Planned responsibilities
 
@@ -30,6 +30,10 @@ The protocol repository must describe cross-component contracts, not server-priv
 - GoreeCloud/feeds-server — planned authoritative server implementation.
 - GoreeCloud/feeds-web — planned web client.
 - GoreeCloud/feeds-shared — reusable implementation that is genuinely shared but is not itself a protocol authority.
+
+## Development contract
+
+The first contract tranche defines `GET /api/v1/capabilities` using OpenAPI 3.1 and HTTP/JSON. Contract version `0.1.0-dev` is Development-only and must not be represented as Stable.
 
 ## Documentation
 
