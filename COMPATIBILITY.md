@@ -2,7 +2,7 @@
 
 ## Current compatibility state
 
-No stable or released GoreeCloud Feeds protocol exists, so there is currently no verified server/client compatibility matrix.
+No Stable or released GoreeCloud Feeds protocol exists. Development contract `0.1.0-dev` now defines the initial `GET /api/v1/capabilities` shape, but there is still no production server/client compatibility matrix.
 
 ## Planned compatibility relationships
 
