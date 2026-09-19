@@ -5,9 +5,10 @@
 - Repository exists and uses main.
 - Before this foundation change, it contained only its initial README.
 - No schema language or transport has been selected.
-- No protocol version has been released.
+- Development contract `0.1.0-dev` exists as OpenAPI 3.1 JSON and defines `GET /api/v1/capabilities`.
+- No Stable protocol version has been released.
 - No generated package or SDK exists.
-- No server/client compatibility has been verified.
+- Production server/client compatibility has not been verified.
 
 ## Pending technical decisions
 
